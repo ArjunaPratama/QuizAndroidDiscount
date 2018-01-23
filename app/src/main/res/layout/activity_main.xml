@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arjuna.quizandroiddiscount.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etjumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sum of Item"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etharga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Price of item"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnhasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Final" />
+
+        <TextView
+            android:id="@+id/txthasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finally," />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
